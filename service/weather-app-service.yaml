@@ -7,6 +7,6 @@ spec:
     app: "weather-app"
   ports:
     - protocol: "TCP"
-      port: 443
+      port: 80
       targetPort: 8080
   type: LoadBalancer
