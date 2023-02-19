@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: weather-app
+  name: weather-app-v2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: weather-app
+      app: weather-app-v2
   template:
     metadata:
       labels:
-        app: weather-app
+        app: weather-app-v2
         track: stable
     spec:
       containers:
-        - name: weather-app
-          image: "gcr.io/laboratorio-ucloud-01/weather-app:old"
+        - name: weather-app-v2
+          image: "gcr.io/laboratorio-ucloud-01/weather-app:new"
           ports:
           - name: http1
             containerPort: 8080
