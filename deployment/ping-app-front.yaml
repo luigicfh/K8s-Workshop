@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ping-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ping-app
+  template:
+    metadata:
+      labels:
+        app: ping-app
+        track: stable
+    spec:
+      containers:
+        - name: ping-app
+          image: "gcr.io/laboratorio-ucloud-01/ping-ping"
+          ports:
+          - name: http1
+            containerPort: 8080
