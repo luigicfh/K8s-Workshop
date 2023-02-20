@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ping-app
-          image: "gcr.io/laboratorio-ucloud-01/ping-app:latest"
+          image: "gcr.io/laboratorio-ucloud-01/ping-app"
           ports:
           - name: http1
             containerPort: 8080
