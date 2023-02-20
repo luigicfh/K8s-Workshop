@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: weather-app
-          image: "gcr.io/${PROJECT}/weather-app"
+          image: "gcr.io/$PROJECT/weather-app"
           ports:
           - name: http1
             containerPort: 8080

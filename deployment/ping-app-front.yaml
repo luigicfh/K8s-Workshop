@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ping-app
-          image: "gcr.io/${PROJECT}/ping-app"
+          image: "gcr.io/$PROJECT/ping-app"
           ports:
           - name: http1
             containerPort: 8080
