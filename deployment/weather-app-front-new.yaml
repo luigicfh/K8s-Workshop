@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: weather-app-v2
-          image: "gcr.io/laboratorio-ucloud-01/weather-app:new"
+          image: "gcr.io/laboratorio-ucloud-01/weather-app:latest"
           ports:
           - name: http1
             containerPort: 8080
