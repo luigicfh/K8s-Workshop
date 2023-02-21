@@ -4,9 +4,9 @@
 
 [https://github.com/luigicfh/weather-app](https://github.com/luigicfh/weather-app)
 
-[https://github.com/luigicfh/connectivity-app-client](https://github.com/luigicfh/connectivity-app-client)
+[https://github.com/luigicfh/connectivity-app-client](https://github.com/luigicfh/ping-app)
 
-[https://github.com/luigicfh/k8-workshop](https://github.com/luigicfh/k8-workshop)
+[https://github.com/luigicfh/k8-workshop](https://github.com/luigicfh/k8s-workshop)
 
 ---
 
