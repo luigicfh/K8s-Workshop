@@ -1,7 +1,5 @@
 # Kubernetes Workshop
 
-![components-of-kubernetes.svg](Kubernetes%20Workshop%2086bcb32c29774ba2802deb0dba4bfb75/components-of-kubernetes.svg)
-
 ## Code Repositories
 
 [https://github.com/luigicfh/weather-app](https://github.com/luigicfh/weather-app)
