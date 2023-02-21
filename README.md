@@ -1,4 +1,4 @@
-# Kubernetes Workshop
+# Google Kubernetes Engine Workshop
 
 ## Code Repositories
 
